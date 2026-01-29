@@ -19,7 +19,7 @@ class AdminLoginForm(forms.Form):
 
         email = data.get('email')
 
-        email_domain_list =[['gmail.com','yahoo.com','outlook.com','hotmail.com','icloud.com','live.com','mailinator.com']]
+        email_domain_list =['gmail.com','yahoo.com','outlook.com','hotmail.com','icloud.com','live.com','mailinator.com']
 
         _,domain = email.split('@')
 
